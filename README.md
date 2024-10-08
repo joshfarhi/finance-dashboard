@@ -20,36 +20,9 @@ This project is an interface for managing a portfolio tracker using Google Sheet
 - **Scalable Data Integration**: Next.js API routes are used to securely communicate with Google Sheets, making it easy to expand and manage large datasets.
 - **Modern UI**: Built with ShadCN and Tailwind CSS, providing a responsive and user-friendly experience.
 
-## Running the Project Locally
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/joshfarhi/finance-dashboard.git
-   ```
-2. **Install Dependencies**:
-   ```bash
-   cd finance-dashboard
-   npm install
-   ```
-3. **Environment Variables**:
-   Set up the environment variables required for Google Sheets API and Clerk Auth in a `.env` file:
-   ```
-   GOOGLE_SHEETS_API_KEY=<Your Google Sheets API Key>
-   CLERK_API_KEY=<Your Clerk Auth API Key>
-   ```
-4. **Run the Development Server**:
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) to see your application in the browser.
-
 ## Deployment
 
 The project is designed for deployment on **Vercel**. Vercel’s edge caching and serverless functions allow for efficient data fetching and optimized performance.
-
-- Connect your GitHub repository to Vercel.
-- Set up necessary environment variables in the Vercel dashboard.
-- Deploy with one click.
 
 ## Future Enhancements
 
