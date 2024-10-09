@@ -11,7 +11,6 @@ This project is an interface for managing a portfolio tracker using Google Sheet
 - **React Query**: To manage data fetching and server-state synchronization with caching.
 - **Zustand**: For managing local UI state in a lightweight and straightforward way.
 - **Google Sheets API**: Integration with Google Sheets to read and write portfolio data.
-- **Clerk Auth**: Secure authentication for user login and access management.
 
 ## Key Features
 
