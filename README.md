@@ -15,7 +15,6 @@ This project is an interface for managing a portfolio tracker using Google Sheet
 ## Key Features
 
 - **Real-time Portfolio Data**: Automatically fetches data from Google Sheets and displays it in an organized way.
-- **Secure Authentication**: Leveraging Clerk Auth for managing user sessions.
 - **Scalable Data Integration**: Next.js API routes are used to securely communicate with Google Sheets, making it easy to expand and manage large datasets.
 - **Modern UI**: Built with ShadCN and Tailwind CSS, providing a responsive and user-friendly experience.
 
